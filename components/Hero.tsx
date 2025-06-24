@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useEffect, useState } from 'react'
-import { Button } from './ui/button'
 export const Hero = () => {
      const [isVisible, setIsVisible] = useState(false)
 

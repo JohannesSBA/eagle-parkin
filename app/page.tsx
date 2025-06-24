@@ -1,11 +1,7 @@
 "use client"
 
-import { useState, useEffect } from "react"
-import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { MapPin, Clock, Shield, Smartphone, Menu, X } from "lucide-react"
-import Image from "next/image"
-import  ModelViewer  from "@/components/ui/mode"
+import { MapPin, Clock, Shield} from "lucide-react"
 import Header from "@/components/Header"
 import { Hero } from "@/components/Hero"
 import { Map } from "@/components/Map"
@@ -23,7 +19,7 @@ export default function ParkingApp() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Why Choose Eagle Parking?</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're revolutionizing urban parking with smart technology that saves you time, money, and stress.
+              We&apos;re revolutionizing urban parking with smart technology that saves you time, money, and stress.
             </p>
           </div>
 
