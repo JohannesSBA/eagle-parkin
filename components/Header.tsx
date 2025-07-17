@@ -1,5 +1,5 @@
 "use client"
-import { MapPin, X, Menu } from 'lucide-react';
+import { X, Menu } from 'lucide-react';
 import React, { useState } from 'react';
 import { Button } from './ui/button';
 import { useRouter, usePathname } from 'next/navigation';

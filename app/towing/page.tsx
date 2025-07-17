@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Card, CardContent } from "@/components/ui/card"
-import { Truck, Phone, Clock, MapPin, Shield, Zap, DollarSign, Users, Star, CheckCircle, AlertTriangle, Car, Wrench, Building, MessageCircle, Mail } from "lucide-react"
+import { Truck, Phone, Clock, MapPin, Shield, Zap, Star, CheckCircle, AlertTriangle, Car, Wrench, Building, MessageCircle, Mail } from "lucide-react"
 import Header from "@/components/Header"
 import { Map } from "@/components/Map"
 import { Footer } from "@/components/Footer"
@@ -45,7 +45,7 @@ export default function Towing() {
                 <p
                   className={`text-xl text-gray-600 max-w-lg transition-all duration-1000 delay-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
                 >
-                  Fast, reliable, and professional towing services available 24/7. From roadside assistance to heavy-duty towing, we've got you covered.
+                  Fast, reliable, and professional towing services available 24/7. From roadside assistance to heavy-duty towing, we&apos;ve got you covered.
                 </p>
                 <div className={`flex space-x-4 transition-all duration-1000 delay-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
                   <a href="tel:3474254757" className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
