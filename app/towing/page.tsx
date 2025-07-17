@@ -48,11 +48,13 @@ export default function Towing() {
                   Fast, reliable, and professional towing services available 24/7. From roadside assistance to heavy-duty towing, we've got you covered.
                 </p>
                 <div className={`flex space-x-4 transition-all duration-1000 delay-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
-                  <button className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
+                  <a href="tel:3474254757" className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Call Now
-                  </button>
+                  </a>
                   <button className="border border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+                    <a href="tel:+1(301)920-4196">
                     Get Quote
+                  </a>
                   </button>
                 </div>
               </div>
@@ -514,7 +516,7 @@ export default function Towing() {
                 <Phone className="w-8 h-8 text-red-600" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Emergency Hotline</h3>
-              <p className="text-2xl font-bold text-red-600 mb-2">1-800-TOW-NOW</p>
+              <p className="text-2xl font-bold text-red-600 mb-2">+1 301-920-4196</p>
               <p className="text-gray-600">24/7 emergency dispatch</p>
             </div>
             <div className="text-center">
