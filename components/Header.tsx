@@ -97,13 +97,11 @@ export default function Header() {
               >
                 Find Parking
               </button>
-              <button
+             
+              <Button 
                 onClick={() => router.push("/towing")}
-                className="text-left text-gray-600 hover:text-black transition-colors"
-              >
-                Towing
-              </button>
-              <Button className="bg-black text-white hover:bg-gray-800 w-fit">Get Started</Button>
+              
+              className="bg-black text-white hover:bg-gray-800 w-fit">Towing</Button>
             </nav>
           </div>
         )}
