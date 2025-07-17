@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useEffect, useState } from 'react'
+import Image from 'next/image'
 export const Hero = () => {
      const [isVisible, setIsVisible] = useState(false)
 
@@ -32,7 +33,7 @@ export const Hero = () => {
                 <p
                   className={`text-xl text-gray-600 max-w-lg transition-all duration-1000 delay-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
                 >
-                  With Eagle Parking, you can reserve hourly and monthly parking for our locations with no added hassle or frustration!
+                  With Richo Parking, you can reserve hourly and monthly parking for our locations with no added hassle or frustration!
                 </p>
               </div>
 
@@ -60,8 +61,8 @@ export const Hero = () => {
             <div
               className={`relative transition-all duration-1000 delay-400 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"}`}
             >
-              <div className="relative w-full h-[600px] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl flex items-center justify-center">
-                
+              <div className="relative w-full h-[300px] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl flex items-center justify-center">
+                <Image src="/lot.jpg" alt="Richo Parking" width={600} height={600} />
               </div>
             </div>
           </div>

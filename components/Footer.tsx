@@ -1,4 +1,4 @@
-import { MapPin } from 'lucide-react';
+import Image from 'next/image';
 import React from 'react';
 
 export const Footer = () => {
@@ -9,9 +9,9 @@ export const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                  <MapPin className="w-5 h-5 text-black" />
+                  <Image src="/logo.png" alt="Richo Parking" width={32} height={32} />
                 </div>
-                <span className="text-xl font-bold">Eagle Parking</span>
+                <span className="text-xl font-bold">Richo Parking</span>
               </div>
               <p className="text-gray-400">Making parking simple, smart, and stress-free for everyone.</p>
             </div>
@@ -81,7 +81,7 @@ export const Footer = () => {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} Eagle Parking. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Richo Parking. All rights reserved.</p>
           </div>
         </div>
       </footer>

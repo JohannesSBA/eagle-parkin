@@ -3,7 +3,7 @@ import { MapPin, X, Menu } from 'lucide-react';
 import React, { useState } from 'react';
 import { Button } from './ui/button';
 import { useRouter, usePathname } from 'next/navigation';
-
+import Image from 'next/image';
 export default function Header() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -39,9 +39,9 @@ export default function Header() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-black rounded-lg flex items-center justify-center">
-              <MapPin className="w-5 h-5 text-white" />
+              <Image src="/logo.png" alt="Richo Parking" width={32} height={32} />
             </div>
-            <span className="text-xl font-bold">Eagle Parking</span>
+            <span className="text-xl font-bold">Richo Parking</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -64,13 +64,9 @@ export default function Header() {
             >
               Find Parking
             </button>
-            <button
+            <Button
               onClick={() => router.push('/towing')}
-              className="text-gray-600 hover:text-black transition-colors cursor-pointer"
-              >
-                Towing
-              </button>
-            <Button className="bg-black text-white hover:bg-gray-800">Get Started</Button>
+             className="bg-black text-white hover:bg-gray-800">Towing</Button>
           </nav>
 
           {/* Mobile Menu Button */}
