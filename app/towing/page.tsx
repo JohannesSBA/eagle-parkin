@@ -48,7 +48,7 @@ export default function Towing() {
                   Fast, reliable, and professional towing services available 24/7. From roadside assistance to heavy-duty towing, we&apos;ve got you covered.
                 </p>
                 <div className={`flex space-x-4 transition-all duration-1000 delay-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
-                  <a href="tel:3474254757" className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
+                  <a href="tel:3019204196" className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Call Now
                   </a>
                   <button className="border border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
